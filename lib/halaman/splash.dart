@@ -41,7 +41,7 @@ class _SplashState extends State<Splash> {
               ),
             ),
             const SizedBox(
-              height: 20,
+              height: 30,
             ),
             Text(
               'BatmanPedia',

@@ -1,3 +1,5 @@
+import 'package:batmanpedia/halaman/detailmovies.dart';
+import 'package:batmanpedia/halaman/splash.dart';
 import 'package:flutter/material.dart';
 
 
@@ -14,8 +16,8 @@ class BatmanApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        '/': (context) => const HomePage(),
-        '/detail': (context) => const DetailPage(item: 0, title: ''),
+        '/': (context) => const Splash(),
+        '/home': (context) => const DetailPage(),
       },
     );
   }

@@ -11,8 +11,13 @@ class _HomePageState extends State<HomePage> {
   @override
 
   Widget build(BuildContext context) {
-    return Container(
-      
+    return MaterialApp(
+      title: "Batmanpedia",
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Batmanpedia")
+        ),
+      ),
     );
   }
 }
