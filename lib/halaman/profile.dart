@@ -35,11 +35,21 @@ class ProfilePage extends StatelessWidget {
                     children: [
                       const Card(
                         child: ListTile(
-                          title: Text('Tempat Tanggal Lahir'),
-                          subtitle: Text('Purbalingga, 22 April 2021'),
+                          title: Text('Nama'),
+                          subtitle: Text('Defin Friko Fahdani'),
                           leading: CircleAvatar(
                             backgroundImage: NetworkImage(
-                                'https://static.wikia.nocookie.net/karakai-jouzu-no-takagi-san/images/a/ab/Episode_1_Screenshot_3.png/revision/latest/top-crop/width/360/height/450?cb=20180514055609'),
+                                'https://previews.123rf.com/images/oliviart/oliviart2004/oliviart200400861/148386278-people-icon-isolated-on-white-background-person-icon-user-vector-icon.jpg'),
+                          ),
+                        ),
+                      ),
+                      const Card(
+                        child: ListTile(
+                          title: Text('Tempat Tanggal Lahir'),
+                          subtitle: Text('Purbalingga, 22 April 2001'),
+                          leading: CircleAvatar(
+                            backgroundImage: NetworkImage(
+                                'https://thumbs.dreamstime.com/b/calendar-icon-isolated-white-background-calender-symbol-vector-deadline-date-time-185768391.jpg'),
                           ),
                         ),
                       ),
@@ -49,7 +59,7 @@ class ProfilePage extends StatelessWidget {
                           subtitle: Text('21120119130054'),
                           leading: CircleAvatar(
                             backgroundImage: NetworkImage(
-                                'https://static.wikia.nocookie.net/karakai-jouzu-no-takagi-san/images/a/ab/Episode_1_Screenshot_3.png/revision/latest/top-crop/width/360/height/450?cb=20180514055609'),
+                                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTapbQaqWMPBUTbs3CDSCLRzmv-JHQo9SDRKg&usqp=CAU'),
                           ),
                         ),
                       ),
@@ -59,7 +69,7 @@ class ProfilePage extends StatelessWidget {
                           subtitle: Text('Teknik Komputer'),
                           leading: CircleAvatar(
                             backgroundImage: NetworkImage(
-                                'https://static.wikia.nocookie.net/karakai-jouzu-no-takagi-san/images/a/ab/Episode_1_Screenshot_3.png/revision/latest/top-crop/width/360/height/450?cb=20180514055609'),
+                                'https://thumbs.dreamstime.com/b/major-icon-man-166917107.jpg'),
                           ),
                         ),
                       ),
@@ -69,7 +79,7 @@ class ProfilePage extends StatelessWidget {
                           subtitle: Text('Rebahan dan Gaming'),
                           leading: CircleAvatar(
                             backgroundImage: NetworkImage(
-                                'https://static.wikia.nocookie.net/karakai-jouzu-no-takagi-san/images/a/ab/Episode_1_Screenshot_3.png/revision/latest/top-crop/width/360/height/450?cb=20180514055609'),
+                                'https://www.mcicon.com/wp-content/uploads/2020/12/Holidays_Game_1-copy-11.jpg'),
                           ),
                         ),
                       ),

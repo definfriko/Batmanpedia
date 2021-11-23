@@ -13,11 +13,16 @@ class _DetailActorState extends State<DetailActor> {
   @override
 Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text("Actor Batman Movie"),
+        backgroundColor: Colors.black,
+      ),
       body: ListView(
         children: [
           Column(
             children: [
               Container(
+                padding: EdgeInsets.all(20),
                 width: 200,
                 height: 280,
                 child: Image.network(

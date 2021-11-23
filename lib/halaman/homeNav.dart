@@ -29,13 +29,13 @@ class _NavBarState extends State<NavBar> {
             backgroundColor: Colors.red,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Business',
+            icon: Icon(Icons.group),
+            label: 'Actor',
             backgroundColor: Colors.green,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'School',
+            icon: Icon(Icons.person),
+            label: 'Profile',
             backgroundColor: Colors.purple,
           ),
         ],
