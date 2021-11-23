@@ -2,21 +2,13 @@ import 'package:flutter/material.dart';
 import 'home.dart';
 
 class ProfilePage extends StatelessWidget {
-  const ProfilePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Profile Page'),
-        actions: [
-          IconButton(
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => const HomePage()));
-              },
-              icon: const Icon(Icons.home, color: Colors.white))
-        ],
+        backgroundColor: Colors.black,
       ),
       body: ListView(
         children: [

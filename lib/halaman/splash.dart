@@ -1,9 +1,9 @@
 import 'dart:async';
+import 'package:batmanpedia/halaman/homeNav.dart';
 import 'package:flutter/material.dart';
 import 'package:batmanpedia/halaman/home.dart';
 
 class Splash extends StatefulWidget {
-  const Splash({Key? key}) : super(key: key);
 
   @override
   State<Splash> createState() => _SplashState();
@@ -16,7 +16,7 @@ class _SplashState extends State<Splash> {
     Timer(
         const Duration(seconds: 5),
         () => Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (BuildContext context) => const HomePage())));
+            builder: (BuildContext context) => NavBar())));
   }
 
   @override
