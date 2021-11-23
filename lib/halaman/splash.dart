@@ -41,10 +41,10 @@ class _SplashState extends State<Splash> {
               ),
             ),
             const SizedBox(
-              height: 30,
+              height: 40,
             ),
             Text(
-              'BatmanPedia',
+              'Batmanpedia',
               style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
             ),
           ],

@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
 
-class DetailPage extends StatefulWidget {
-  const DetailPage({ Key? key }) : super(key: key);
+class DetailMovies extends StatefulWidget {
+  const DetailMovies({ Key? key }) : super(key: key);
 
   @override
-  _DetailPageState createState() => _DetailPageState();
+  _DetailMoviesState createState() => _DetailMoviesState();
 }
 
-class _DetailPageState extends State<DetailPage> {
+class _DetailMoviesState extends State<DetailMovies> {
   @override
-
   Widget build(BuildContext context) {
     return Container(
       
